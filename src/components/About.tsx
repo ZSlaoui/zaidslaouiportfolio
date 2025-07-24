@@ -63,7 +63,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Calendar className="h-5 w-5 text-muted-foreground" />
-                  <span>Geboren am 02.01.1996 in Marokko</span>
+                  <span>28 Jahre alt, geboren in Marokko</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-muted-foreground" />

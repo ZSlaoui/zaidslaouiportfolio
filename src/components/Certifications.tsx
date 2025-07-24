@@ -136,6 +136,18 @@ const Certifications = () => {
       description: "Grundlagen des technischen Supports, Problemlösung und Kundeninteraktion",
       skills: ["Technical Troubleshooting", "Customer Service", "Documentation", "Remote Support", "Escalation Procedures"],
       level: "Professional Course"
+    },
+    {
+      title: "Software Development on SAP HANA",
+      provider: "SAP",
+      duration: "3 Monate",
+      date: "2024",
+      category: "Software Development",
+      url: "#",
+      color: "text-emerald-500",
+      description: "Entwicklung von Anwendungen auf der SAP HANA In-Memory-Plattform",
+      skills: ["SAP HANA Studio", "HANA SQL", "XS Engine", "CDS Views", "ABAP Development"],
+      level: "Professional Certificate"
     }
   ];
 
@@ -150,7 +162,8 @@ const Certifications = () => {
       "Networking": "bg-blue-500/10 text-blue-500 border-blue-500/30",
       "Productivity": "bg-orange-500/10 text-orange-500 border-orange-500/30",
       "Digital Marketing": "bg-yellow-500/10 text-yellow-500 border-yellow-500/30",
-      "Career Development": "bg-pink-500/10 text-pink-500 border-pink-500/30"
+      "Career Development": "bg-pink-500/10 text-pink-500 border-pink-500/30",
+      "Software Development": "bg-emerald-500/10 text-emerald-500 border-emerald-500/30"
     };
     return colors[category as keyof typeof colors] || "bg-primary/10 text-primary border-primary/30";
   };
@@ -254,8 +267,8 @@ const Certifications = () => {
         {/* Statistics */}
         <div className="grid md:grid-cols-4 gap-6 mb-12">
           {[
-            { number: "11", label: "Zertifikate erworben" },
-            { number: "8", label: "Verschiedene Kategorien" },
+            { number: "12", label: "Zertifikate erworben" },
+            { number: "9", label: "Verschiedene Kategorien" },
             { number: "2024", label: "Aktuellstes Jahr" },
             { number: "20+", label: "Stunden Weiterbildung" }
           ].map((stat, index) => (
